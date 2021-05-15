@@ -103,7 +103,7 @@ function watchPosition() {
 
 // Welchen Kartenausschnitt brauchen wir, um das Gelände der FH Kufstein darzustellen? Ein Kartenausschnitt mit Geo-Koordinaten (Boundary) soll definiert werden.
 // A:
-                        // North-west corner       // South-east corner
+                    // North-west corner       // South-east corner
 const boundaries = [[47.584724, 12.171843], [47.583015, 12.174000]];
 
 const map = L.map('map', {
