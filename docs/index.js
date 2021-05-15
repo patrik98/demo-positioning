@@ -31,7 +31,7 @@ useApi();
 
 // Kann die API mit Testdaten genutzt werden, oder muss man sich im Freien bewegen?
 // A: Die API gibt Geolocation-Daten zurück, man kann aber bspw. kein GeolocationCoordinates-Objekt mit eigenen Positionsdaten instanzieren.
-//    Man kann direkt mit dieser API keine Testdaten einspeisen, man muss sich für die Erzeugung von untersch. Positionsdaten wirklich im Freien bewegen.
+//    Man kann zumindest in Chrome über die Entwicklerkonsole ein "Sensors"-Tab öffnen und die GPS-Position simulieren.
 
 // Eine Liste von 5 POIs soll definiert werden, welche die Benutzerin im Spiel abgehen muss.
 // A:   1. POI - Gebäude B - 47.584040, 12.173309
@@ -77,7 +77,7 @@ const reachedPois = [];
 
 function watchPosition() {
     function success(pos) {
-      // const crd = [pos.coords.latitude, pos.coords.longitude]; // meine wahre Position
+      //const crd = [pos.coords.latitude, pos.coords.longitude]; // meine wahre Position
 
       const testPos = [47.583861, 12.172767]; // Testdaten
 
