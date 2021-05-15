@@ -1,0 +1,17 @@
+{
+  "name": "demo-positioning",
+  "scripts": {
+    "start": "http-server docs -p 9000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrik98/demo-positioning.git"
+  },
+  "homepage": "https://github.com/patrik98/demo-positioning#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  },
+  "dependencies": {
+    "leaflet": "^1.7.1"
+  }
+}
