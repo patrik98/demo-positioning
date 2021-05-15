@@ -18,6 +18,8 @@ function useApi() {
     }
 }
 
+useApi();
+
 // Welche Ergebnisse liefert diese API?
 
 // A: Vor allem Breiten- und Längengrade in Form eines GeolocationCoordinates-Objekts
@@ -100,6 +102,8 @@ function watchPosition() {
     
     navigator.geolocation.watchPosition(success, error, options);
 }
+
+watchPosition();
 
 // Welchen Kartenausschnitt brauchen wir, um das Gelände der FH Kufstein darzustellen? Ein Kartenausschnitt mit Geo-Koordinaten (Boundary) soll definiert werden.
 // A:
